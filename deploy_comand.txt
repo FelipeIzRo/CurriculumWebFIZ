@@ -1,0 +1,1 @@
+ng deploy --repo=https://github.com/FelipeIzRo/CurriculumWebFIZ.git --name="FelipeIzRo" --base-href=/CurriculumWebFIZ/
