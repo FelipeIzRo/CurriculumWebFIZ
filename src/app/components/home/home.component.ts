@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  onMouseEnter(event:Event){
+    const nav = event.target as HTMLElement;
+    nav.classList.remove('gray');
+    nav.classList.add('blue')
+  }
+  onMouseLeave(event:Event){
+    const nav = event.target as HTMLElement;
+    nav.classList.add('gray')
+  }
 }
